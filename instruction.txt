@@ -1,0 +1,2 @@
+use this to compile : g++ -Llib -o main  main.cpp -lSDL2
+and this is to run : ./main 
