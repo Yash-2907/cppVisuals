@@ -16,7 +16,7 @@ void draw(vector<int> &v, SDL_Renderer *renderer, int red, int blue)
             SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
         else
             SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-        SDL_RenderDrawLine(renderer, index, 99, index, it);
+        SDL_RenderDrawLine(renderer, index, 99, index, 99-it);
         index++;
     }
 }
