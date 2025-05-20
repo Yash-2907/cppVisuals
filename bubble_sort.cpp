@@ -25,8 +25,8 @@ int main()
 {
     SDL_Renderer *renderer = nullptr;
     SDL_Window *window = nullptr;
-    SDL_CreateWindowAndRenderer(100 * 10, 100 * 10, 0, &window, &renderer);
-    SDL_RenderSetScale(renderer, 10, 10);
+    SDL_CreateWindowAndRenderer(100 * 8, 100 * 8, 0, &window, &renderer);
+    SDL_RenderSetScale(renderer, 8, 8);
     vector<int> v(100);
     int i, j;
     for (auto &it : v)
